@@ -26,6 +26,7 @@ https://github.com/CDarts48/README-generator
   inquirer javascript tyoescript Node.js
   
 ## How to Use This Application
+Link to How To Video
 https://drive.google.com/file/d/1OQYkkZtVQ4WIRU11v7ldxFqtZYWqrhTo/view
 
   ## Contributors
