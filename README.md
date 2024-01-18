@@ -9,7 +9,7 @@ The purpose of this is to streamline the users ability to generate a high qualit
 https://github.com/CDarts48/README-generator
 
 ## Screenshot
-![alt-text:'Screen shot of app'](Insert later)
+![alt-text:'Screen shot of app']
 
 ## Table of Contents
 * [Features](#features)
