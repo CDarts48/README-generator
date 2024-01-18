@@ -6,7 +6,7 @@ const generateMarkdown = require("./utils/generateMarkdown.js");
 // Generate the HTML string???
 
 // Check the end of last nights video for the correct way to do the above for the html creation then adjust for a read me file
-// Array copied from github.com/dopecello 
+// Array copied from github.com/dopecello
 const questions = [
   {
     type: "input",
@@ -21,12 +21,13 @@ const questions = [
   {
     type: "input",
     name: "screenshot",
-    message: "Please provide the relative path to the image you want to use as the screenshot."
+    message:
+      "Please provide the relative path to the image you want to use as the screenshot.",
   },
   {
     type: "input",
     name: "link",
-    message: "Please provide a URL where a user can access your app."
+    message: "Please provide a URL where a user can access your app.",
   },
   {
     type: "list",
@@ -64,7 +65,6 @@ const questions = [
     type: "input",
     name: "contributors",
     message: "Please list any contributors. (Use GitHub usernames)",
-    default: "",
   },
   {
     type: "input",
@@ -73,9 +73,7 @@ const questions = [
   },
 ];
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-  
-}
+function writeToFile(fileName, data) {}
 inquirer.prompt(questions).then((answers) => {
   // Write the answers to a new file
   fs.writeFile("readme.md", generateMarkdown(answers), (err) => {
@@ -88,6 +86,5 @@ inquirer.prompt(questions).then((answers) => {
   // Function call to initialize app
   init();
 });
-
 
 // parameters are slots that you can grab somewhere else function (parameters1, parameters2)
