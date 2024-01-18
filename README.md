@@ -9,7 +9,6 @@ The purpose of this is to streamline the users ability to generate a high qualit
 https://github.com/CDarts48/README-generator
 
 ## Screenshot
-![alt-text:'Screen shot of app']
 <img width="1680" alt="Screenshot 2024-01-18 at 7 20 40 AM" src="https://github.com/CDarts48/README-generator/assets/137344214/23864b30-0747-4fd5-ba7c-bcdb6e7b06ee">
 
 ## Table of Contents
